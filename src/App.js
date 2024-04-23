@@ -28,7 +28,7 @@ function App() {
 		<section className="title">
 			<img style={{marginTop: "1.5rem"}} src={banner} alt="Girl in a jacket" width="200" />
 		</section>
-		<section style={{overflow: "auto", height: "620px"}}>
+		<section style={{overflow: "auto", height: "810px"}}>
 			<div className="body">
 				{
 					cakes.map(cake => <div key={cake.name} style={{margin: "1.5rem 3rem"}}>
@@ -44,7 +44,7 @@ function App() {
 				</Box>
 				<Box sx={{ fontFamily: 'Monospace', fontStyle: 'italic', color: 'white', margin: "0 3rem 1rem 3rem", fontSize: "16px" }}>
 					<Typography component="div">
-						We accept Zelle: 646-641-1017
+						Zelle: 646-641-1017
 					</Typography>
 					<Typography component="div">
 						Please input your name and kind in the message

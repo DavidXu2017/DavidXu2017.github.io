@@ -11,7 +11,7 @@ export default function MediaCard(cakeData) {
     return (
         <Card >
             <CardMedia
-                sx={{ height: 180 }}
+                sx={{ height: 250 }}
                 image={cake.image}
                 title={cake.title}
             />
