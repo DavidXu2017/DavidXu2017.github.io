@@ -28,7 +28,7 @@ function App() {
 		<section className="title">
 			<img style={{marginTop: "1.5rem"}} src={banner} alt="Girl in a jacket" width="200" />
 		</section>
-		<section style={{overflow: "auto", height: "800px"}}>
+		<section style={{overflow: "auto", height: "620px"}}>
 			<div className="body">
 				{
 					cakes.map(cake => <div key={cake.name} style={{margin: "1.5rem 3rem"}}>

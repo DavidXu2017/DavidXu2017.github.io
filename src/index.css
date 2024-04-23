@@ -13,9 +13,7 @@ code {
 }
 
 .app {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(147, 57, 57, 1);
+  background: rgba(147, 57, 57, 1);
 }
 
 .title {
