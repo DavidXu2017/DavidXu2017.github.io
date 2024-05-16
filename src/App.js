@@ -38,7 +38,7 @@ function App() {
 					</div>)
 				}
 			</div>
-			<div>
+			<div style={{marginBottom: "5rem"}}>
 				<Box sx={{ fontFamily: 'Monospace', fontStyle: 'italic', color: 'white', margin: "1rem 3rem 0.625rem 3rem" }}>
 					<Typography variant="h6" component="div">
 						How to order:
