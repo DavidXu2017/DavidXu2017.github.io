@@ -11,7 +11,7 @@ export default function MediaCard(cakeData) {
     return (
         <Card >
             <CardMedia
-                sx={{ height: 250 }}
+                sx={{ height: 300 }}
                 image={cake.image}
                 title={cake.title}
             />
@@ -24,8 +24,8 @@ export default function MediaCard(cakeData) {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Typography variant="h6" sx={{marginLeft: "8px"}} component="div">
-                    $35
+                <Typography variant="h6" sx={{marginLeft: "8px", marginTop: "-1.3rem"}} component="div">
+                    {cake.price}
                 </Typography>
             </CardActions>
         </Card>

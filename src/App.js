@@ -13,13 +13,15 @@ function App() {
 			image: cheeseCakeImg,
 			title: "",
 			name: "New York Cheese Cake",
-			ingredients: "Butter, Cheese"
+			ingredients: "4'' Butter, Cheese, Cream Cheese, Eag, Cookie, Lemon, White Chocolate",
+			price: "$25"
 		},
 		{
 			image: bluebarryCheeseCakeImg,
 			title: "",
 			name: "Bluebarry Cheese Cake",
-			ingredients: "Bluebarry, Cheese, Butter"
+			ingredients: "4'' Bluebarry, Butter, Cheese, Cream Cheese, Eag, Cookie, Lemon, White Chocolate",
+			price: "$32"
 		},
 	]
 
